@@ -20,15 +20,15 @@ body{
     margin: 0;
     padding: 0;
 }
-menu{
+nav{
     background-color: #DBCC7D;
-    box-shadow: 10px 10px #262626;
-    width: 100%;
+    box-shadow: 5px 5px #262626;
+    width: 99%;
+    margin-left: 4px;
 }
 ul {
-    width: 100%;
+    width: 98%;
     height: auto;
-
     top: 80px;
 }
 @media screen and (min-width:768px) {
@@ -186,10 +186,11 @@ li{
 
 .box{
     position: absolute;
-    top: 410px;
+    top: 440px;
     right: 40px;
     padding: 5px;
     background: #f1f1f1;
+    flex-wrap: nowrap;
 }
 @media screen and (min-width:768px){
     .box{
@@ -239,6 +240,7 @@ li{
     background-color: #262626;
     padding: 20px;
     border-radius:20px;
+    width: auto;
 }
 .contenedorfoto{
     background-color: #262626;
@@ -258,4 +260,18 @@ li{
 }
 .parrafo{
     flex-wrap: wrap;
+}
+.news{
+    background-color: #262626;
+    color: #737EFF;
+}
+.inicio img{
+    height: auto;
+    width: 350px;
+}
+@media screen and (min-width:768px){
+    .inicio img{
+        width: auto;
+        height: auto;
+    }
 }
