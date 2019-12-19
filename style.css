@@ -17,7 +17,7 @@ body{
     background-color: #4D4B3F;
     color: white;
     font-size: 22px;
-    margin: 1;
+    margin: 2;
     padding: 1;
 }
 nav{
@@ -29,6 +29,8 @@ ul {
     width: 90.5%;
     height: auto;
     top: 80px;
+    margin: 0px;
+    padding: 10px;
 }
 @media screen and (min-width:768px) {
     ul {
@@ -185,7 +187,7 @@ li{
 
 .box{
     position: absolute;
-    top: 440px;
+    top: 460px;
     right: 40px;
     padding: 5px;
     background: #f1f1f1;
@@ -245,7 +247,6 @@ li{
     background-color: #262626;
     position: relative;
     padding: 20px;
-    width: 100%;
 }
 .contenedorfoto img{
     width: 300px;
@@ -275,8 +276,12 @@ li{
     }
 }
 footer{
-    background-color: #000000;
-    padding: 20px;
+    background-color: #DBCC7D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color:#B35900;
 }
 #cajaimg{
     width: 100%;
@@ -284,3 +289,12 @@ footer{
 #cajaimg img{
     width: 100%;
 }
+#footer2{
+    top: 0px;
+    margin: 0;
+}
+@media screen and (min-width:768px){
+    #footer2{
+        top: 100%;
+    }
+}  
