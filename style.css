@@ -23,11 +23,10 @@ body{
 nav{
     background-color: #DBCC7D;
     box-shadow: 5px 5px #262626;
-    width: 99%;
-    margin-left: 4px;
+    width: 100%;
 }
 ul {
-    width: 98%;
+    width: 90.5%;
     height: auto;
     top: 80px;
 }
@@ -278,4 +277,10 @@ li{
 footer{
     background-color: #000000;
     padding: 20px;
+}
+#cajaimg{
+    width: 100%;
+}
+#cajaimg img{
+    width: 100%;
 }
